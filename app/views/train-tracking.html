@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="input-group">
+    <input type="text" class="form-control" ng-model="trainNumber">
+    <span class="input-group-btn">
+      <button type="button" class="btn btn-default" ng-click="vm.trackTrain(trainNumber)">Track</button>
+    </span>
+  </div>
+</div>
+
+<div class="row">
+  <br>
+</div>
+
+<div class="row">
+  <pre ng-bind="vm.message | json"></pre>
+</div>
